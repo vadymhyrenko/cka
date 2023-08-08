@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: adminer-cm
+data:
+  # property-like keys; each key maps to a simple value
+  ADMINER_DESIGN: "price"
